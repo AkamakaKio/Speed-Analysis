@@ -1,0 +1,9 @@
+def is_windy(speed):
+    return speed > 20
+
+# Example usage:
+wind_speed = 25  # mph
+if is_windy(wind_speed):
+    print("It's a windy day!")
+else:
+    print("The wind is calm.")
